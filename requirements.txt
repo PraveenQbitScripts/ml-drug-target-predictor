@@ -1,0 +1,27 @@
+# ML Drug Target Predictor - Dependencies
+# ========================================================
+
+# Core ML dependencies
+torch>=2.0.0
+transformers>=4.30.0
+fair-esm>=2.0.0
+
+# Data processing
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.10
+
+# Scientific computing
+scipy>=1.10.0
+scikit-learn>=1.2.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# Optional: GPU acceleration (uncomment if needed)
+# torch-audio
+# torchvision
+
+# Optional: Advanced ML
+# xgboost>=1.7.0
+# lightgbm>=3.3.0
